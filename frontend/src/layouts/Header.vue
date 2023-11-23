@@ -62,13 +62,13 @@
                 <li class="nav-item" :class="{ 'nav-item active': isActive('/formations') }">
                   <router-link to="/formations" class="nav-link">Nos formations </router-link>
                 </li>
-                <li class="nav-item" :class="{ 'nav-item active': isActive('/evenements') }">
-                  <router-link to="/evenements" class="nav-link">Evènéments </router-link>
-                </li>
                 <li class="nav-item" :class="{ 'nav-item active': isActive('/admission-uta') }">
                   <router-link to="/admission-uta" class="nav-link"
                     >Admission 
                   </router-link>
+                </li>
+                <li class="nav-item" :class="{ 'nav-item active': isActive('/evenements') }">
+                  <router-link to="/evenements" class="nav-link">Evènéments </router-link>
                 </li>
                 <li class="nav-item" :class="{ 'nav-item active': isActive('/gallery-uta') }">
                   <router-link to="/gallery-uta" class="nav-link"

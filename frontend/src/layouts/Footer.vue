@@ -11,22 +11,7 @@
               <div class="footer-logo">
                 <img src="../uploads/app_image/UTA-removebg-preview.png" alt="Logo" />
               </div>
-              <h1>UTA</h1>
-              <!-- <div class="footer-select mb-3 mt-4">
-                <div class="form-group">
-                  <select
-                    name="branch_id"
-                    class="form-control"
-                    id="activateSchool"
-                    data-plugin-selecttwo=""
-                  >
-                    <option value="1" selected="selected">
-                      Icon School & College
-                    </option>
-                    <option value="2">Oxford International School</option>
-                  </select>
-                </div>
-              </div> -->
+              <h4>UTA</h4>
               <p class="footer-dec">
                 L’université Technologique d'Abidjan UTA vise à    former des managers capables de mettre en œuvre  et de développer aussi bien au plan national qu’international des stratégies d’entreprise. 
               </p>
@@ -85,16 +70,12 @@
               <h4>Liens rapides</h4>
               <ul class="list-unstyled quick-links">
                 <li>
-                  <a href="index.htm"><i class="fa fa-angle-right"></i> Home</a>
-                </li>
-                <li>
-                  <a href="teachers.html"
-                    ><i class="fa fa-angle-right"></i> Teachers</a
-                  >
+                  <a href="index.htm">
+                  <i class="fa fa-angle-right"></i> Home</a>
                 </li>
                 <li>
                   <a href="events.html"
-                    ><i class="fa fa-angle-right"></i> Events</a
+                    ><i class="fa fa-angle-right"></i> Evenements</a
                   >
                 </li>
                 <li>
@@ -103,7 +84,8 @@
                   >
                 </li>
                 <li>
-                  <a href="faq.html"><i class="fa fa-angle-right"></i> FAQ</a>
+                  <a href="faq.html">
+                  <i class="fa fa-angle-right"></i> FAQ</a>
                 </li>
                 <li>
                   <a href="admission.html"
@@ -145,7 +127,7 @@
       </div>
       <div class="copyright" style="background-color: #262626; color: #8d8d8d">
         <div class="container px-md-0 clearfix text-center">
-          Copyright &copy; 2023 <span>UTA</span>. Tous droits réservés.
+          Copyright &copy; 2023 <span>UTA</span>. Tous droits réservés. <span>made by InfinitiCode Labs</span>
         </div>
       </div>
       <!-- Copyright Ends -->
