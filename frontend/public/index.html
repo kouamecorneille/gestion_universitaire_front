@@ -6,12 +6,60 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link  type="text/css" href="<%= BASE_URL %>assets/frontend/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Template CSS Files  -->
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/vendor/font-awesome/css/all.min.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/frontend/plugins/animate.min.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/frontend/css/responsive.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/frontend/css/owl.carousel.min.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/vendor/select2/css/select2.min.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/vendor/sweetalert/sweetalert-custom.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/frontend/plugins/magnific-popup/magnific-popup.css">
+	<link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/frontend/css/style.css">
+	<!-- <link  type="text/css" rel="stylesheet" href="<%= BASE_URL %>assets/login_page/css/style.css"> -->
+	<script src="<%= BASE_URL %>assets/vendor/jquery/jquery.min.js"></script>
+	<script src="<%= BASE_URL %>assets/vendor/jquery/jquery.js"></script>
+	<script type="text/javascript">
+		var base_url = 'https://iconschool.ramomcoder.com/';
+	</script>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+    <script type="text/javascript">
+		document.documentElement.style.setProperty('--thm-primary', '#218838');
+		document.documentElement.style.setProperty('--thm-hover', '#1e7e34');
+		document.documentElement.style.setProperty('--thm-text', '#232323');
+		document.documentElement.style.setProperty('--thm-secondary-text', '#383838');
+		document.documentElement.style.setProperty('--thm-footer-text', '#8d8d8d');
+		document.documentElement.style.setProperty('--thm-radius', '0');
+		
+	</script>
+	
+    <div id="app">
+		<div class="loader-container">
+			<div class="lds-dual-ring"></div>
+		</div>
+		<!-- Preloader -->
+	</div>   
+   <!-- built files will be auto injected -->
+  <a href="#" class="back-to-top"><i class="far fa-arrow-alt-circle-up"></i></a>
+<!-- JS Files -->
+<script src="<%= BASE_URL %>assets/frontend/js/bootstrap.min.js"></script>
+<script src="<%= BASE_URL %>assets/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js"></script>
+<script src="<%= BASE_URL %>assets/frontend/js/owl.carousel.min.js"></script>
+<script src="<%= BASE_URL %>assets/frontend/plugins/shuffle/jquery.shuffle.modernizr.min.js"></script>
+<script src="<%= BASE_URL %>assets/vendor/select2/js/select2.full.min.js"></script>
+<script src="<%= BASE_URL %>assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="<%= BASE_URL %>assets/vendor/sweetalert/sweetalert.min.js"></script>
+<script src="<%= BASE_URL %>assets/frontend/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="<%= BASE_URL %>assets/frontend/js/custom.js"></script>
+<script src="<%= BASE_URL %>assets/login_page/js/jquery.backstretch.min.js"></script>
+<script src="<%= BASE_URL %>assets/vendor/bootstrap/js/bootstrap.js"></script>
+<!-- <script src="<%= BASE_URL %>assets/login_page/js/custom.js"></script> -->
+
+</body>
 </html>
