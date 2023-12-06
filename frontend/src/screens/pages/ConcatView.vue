@@ -1,4 +1,7 @@
 <template>
+<div class="loader-container" v-if="loading">
+    <div class="lds-dual-ring"></div>
+  </div>
     <Header />
     <breadcrumbVue  title="Contactez-nous" :image="bgContact"/>
     <div class="container px-md-0 main-container">
@@ -169,7 +172,8 @@ export default {
     name: "ContactView",
     data() {
         return {
-            bgContact:bgContact
+            bgContact:bgContact,
+            loading:true
         }
     },
     components: {
@@ -180,6 +184,11 @@ export default {
     methods: {
         
     },
+    mounted(){
+      setTimeout(() => {
+      this.loading = false;
+    }, 3000)
+    }
 
 }
 </script>

@@ -70,54 +70,36 @@
               <h4>Liens rapides</h4>
               <ul class="list-unstyled quick-links">
                 <li>
-                  <a href="index.htm">
-                  <i class="fa fa-angle-right"></i> Home</a>
+                  <router-link to="/">
+                  <i class="fa fa-angle-right"></i> Acceuil</router-link>
                 </li>
                 <li>
-                  <a href="events.html"
-                    ><i class="fa fa-angle-right"></i> Evenements</a
+                  <router-link to="/evenements"
+                    ><i class="fa fa-angle-right"></i> Evenements</router-link
                   >
                 </li>
                 <li>
-                  <a href="about.html"
-                    ><i class="fa fa-angle-right"></i> About Us</a
+                  <router-link to="/about-us"
+                    ><i class="fa fa-angle-right"></i> A propos</router-link
                   >
                 </li>
                 <li>
-                  <a href="faq.html">
-                  <i class="fa fa-angle-right"></i> FAQ</a>
+                  <router-link to="/faq">
+                  <i class="fa fa-angle-right"></i> FAQ</router-link>
                 </li>
                 <li>
-                  <a href="admission.html"
-                    ><i class="fa fa-angle-right"></i> Online Admission</a
+                  <router-link to="/admission-uta"
+                    ><i class="fa fa-angle-right"></i> Admission</router-link
                   >
                 </li>
                 <li>
-                  <a href="gallery.html"
-                    ><i class="fa fa-angle-right"></i> Gallery</a
+                  <router-link to="/gallery-uta"
+                    ><i class="fa fa-angle-right"></i> Gallerie</router-link
                   >
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-angle-right"></i> Pages</a>
-                </li>
-                <li>
-                  <a href="admit_card.html"
-                    ><i class="fa fa-angle-right"></i> Admit Card</a
-                  >
-                </li>
-                <li>
-                  <a href="exam_results.html"
-                    ><i class="fa fa-angle-right"></i> Exam Results</a
-                  >
-                </li>
-                <li>
-                  <a href="certificates.html"
-                    ><i class="fa fa-angle-right"></i> Certificates</a
-                  >
-                </li>
-                <li>
-                  <a href="contact.html"
-                    ><i class="fa fa-angle-right"></i> Contact-nous</a
+                  <router-link to="/contact-us"
+                    ><i class="fa fa-angle-right"></i> Contact-nous</router-link
                   >
                 </li>
               </ul>
@@ -127,7 +109,7 @@
       </div>
       <div class="copyright" style="background-color: #262626; color: #8d8d8d">
         <div class="container px-md-0 clearfix text-center">
-          Copyright &copy; 2023 <span>UTA</span>. Tous droits réservés. <span>made by InfinitiCode Labs</span>
+          Copyright &copy; 2023 <span>UTA</span>. Tous droits réservés. <span>powered by InfinitiCode Labs</span>
         </div>
       </div>
       <!-- Copyright Ends -->

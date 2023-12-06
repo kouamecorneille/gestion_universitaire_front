@@ -1,8 +1,8 @@
 <template>
   
-  <!-- <div class="loader-container">
+  <div class="loader-container" v-if="loading">
     <div class="lds-dual-ring"></div>
-  </div> -->
+  </div>
   <!-- slider component -->
   <HeaderView />
   <!-- slider component -->
@@ -237,10 +237,15 @@ export default {
   data() {
     return {
       Bg: Bg,
-      paralax:paralax
+      paralax:paralax,
+      loading:true,
     };
   },
   components: { HeaderView, FooterView, SliderView, whatsappComponent },
-  mounted() {},
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000)
+  },
 };
 </script>

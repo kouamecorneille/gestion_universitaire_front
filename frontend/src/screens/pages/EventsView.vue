@@ -1,5 +1,7 @@
 <template>
-
+<div class="loader-container" v-if="loading">
+    <div class="lds-dual-ring"></div>
+</div>
 <Header /> 
 <breadcrumb title="Nos Evènements" :image="bgFormation"/>
  <div class="container px-md-0 main-container">
@@ -103,9 +105,15 @@ export default {
   data() {
     return {
         bgFormation:bgFormation,
-        gallery:gallery
+        gallery: gallery,
+        loading:true,
     };
   },
   components: { Header, Footer,breadcrumb },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000)
+  },
 };
 </script>

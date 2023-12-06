@@ -1,5 +1,7 @@
 <template>
-
+<div class="loader-container" v-if="loading">
+    <div class="lds-dual-ring"></div>
+  </div>
 <Header /> 
 <breadcrumb title="Adminssion à UTA" :image="bgFormation"/>
  <!-- Main Container Starts -->
@@ -717,9 +719,15 @@ export default {
   name: "AdminssionView",
   data() {
     return {
-        bgFormation:bgFormation
+        bgFormation:bgFormation,
+        loading:true,
     };
   },
   components: { Header, Footer,breadcrumb },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000)
+  }
 };
 </script>

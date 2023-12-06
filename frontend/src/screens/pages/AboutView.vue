@@ -1,5 +1,7 @@
 <template>
-
+<div class="loader-container" v-if="loading">
+    <div class="lds-dual-ring"></div>
+  </div>
 <Header /> 
 <breadcrumb title="A propos de nous" :image="bgFormation"/>
  <!-- Breadcrumb Ends -->
@@ -148,9 +150,15 @@ export default {
     return {
         bgFormation: bgFormation,
         paralax: paralax,
-        about:about
+        about: about,
+        loading:true    ,
     };
   },
-  components: { Header, Footer,breadcrumb },
+    components: { Header, Footer, breadcrumb },
+  mounted() {
+    setTimeout(() => {
+      this.loading = false;
+    }, 3000)
+  },
 };
 </script>

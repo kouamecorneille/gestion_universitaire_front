@@ -13,11 +13,10 @@
             <li class="list-inline-item"><router-link to="/">Acceuil</router-link></li>
             <li class="list-inline-item active">{{ title }}</li>
         </ul>
-    </div>
+    </div> 
 </div>
 <!-- Breadcrumb Ends -->
 <!-- Main Container Starts -->
-    
 </template>
 
 <script>
